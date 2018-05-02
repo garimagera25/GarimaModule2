@@ -1,0 +1,22 @@
+<html>
+<script type="text/javascript" src="jquery-1.12.3.min.js"></script>
+<script>
+	$(document).ready(function(){
+		//$('div:contains("Capgemini")').hide();//case-sensitivity
+		//$('div:odd').hide();//div starts with 0
+		//$('div:first-child').hide(); //first div
+		$('p:first-child').hide(); //pune will hide
+		$('p:last-child').hide(); //banglore will hide
+	});
+</script>
+
+	<body>
+		<div>India(div:first:child)
+			<p>1.(p:first-child)Pune</p>
+			<p>2.Mumbai</p>
+			<p>3.banglore</p>
+		</div> 
+		<div>Capgemini India</div>
+		<div>Airoli capgemini</div>
+	</body>
+</html>

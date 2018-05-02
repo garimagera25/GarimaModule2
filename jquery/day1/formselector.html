@@ -1,0 +1,26 @@
+<html>
+<script type="text/javascript" src="jquery-1.12.3.min.js"></script>
+<script>
+$(document).ready(function(){
+		$(":input").click(function(){
+			$(":input").hide();//to hide all
+			$(":radio").hide();//to hide only radio
+			
+		});
+});
+</script>
+
+	<body>
+	<p>Hello Form</p>
+	<p></p>
+	<form>
+		Name:<input type="text" name="username"/><br/>
+		Password:<input type="text" name="password"/><br/>
+		Gender:
+		<input type="radio"name="Gender"/>Male
+		<input type="radio" name="Gender"/>Female<br/>
+		
+		
+	</form>
+	</body>
+</html>

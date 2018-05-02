@@ -1,0 +1,29 @@
+<html>
+	<head>
+	<script type="text/javascript" src="jquery-1.12.3.min.js">
+	</script>
+	<script>
+	$(document).ready(function(){
+		$('#p1').click(function(){
+		$('#p1').hide();
+		});//p1 click
+	
+		$('.p2').click(function(){
+		$('#p1').show();
+		});//p2 click
+		
+		$('p[name="para3"]').click(function(){
+		$('#p1').hide();
+		});//p2 click
+		
+	});//document ready
+	</script>
+	</head>
+	<body>
+	<p id="p1">First para</p>
+	<p class="p2">Second para</p>
+	
+	<p name="para3">Third</p>
+	</body>
+	
+</html>

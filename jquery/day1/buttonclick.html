@@ -1,0 +1,31 @@
+<html>
+<head>
+	<script type="text/javascript" src="jquery-1.12.3.min.js"></script>
+		<script>
+		$(document).ready(function(){
+		
+			$("button").click(function(){
+			$("div").append("<p>New Para</p>");
+			});
+			
+			$("p").dblclick(function(){
+				$(this).css('color','red');
+			});
+			
+			$(":text").blur(function(){
+				$(this).css('color','red');
+			});
+		
+		});
+	</script>
+</head>
+<body>
+	<input type="text" name="username" placeholder="Data"/>
+	<div>Old Divison</div>
+
+	<button type="button">Click</button>
+	<p>click here magic</p>
+	</body>
+
+
+</html>

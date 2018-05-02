@@ -1,0 +1,21 @@
+<html>
+<script type="text/javascript" src="jquery-1.12.3.min.js"></script>
+<script>
+var jsObj= {"Name":"Bhartati","Company":"CapG","Qualifications":"Btech"};
+var parseObj= eval(jsObj);
+alert(parseObj.Name+" "+parseObj.Company);
+var jsonObj = parseJSON(parseObj);
+alert(jsonObj);
+</script>
+
+<body>
+checking json
+</body>
+
+</html>
+
+//write this in console
+var obj = eval(jsObj)
+obj.Name
+obj.Company
+obj.Qualification
